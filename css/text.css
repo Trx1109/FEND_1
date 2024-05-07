@@ -1,0 +1,38 @@
+.card-des {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #4793af;
+    font-size: xx-large;
+}
+
+.nav-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b322c;
+}
+
+.card-content h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #dd5746;
+}
+
+.card-content-time {
+    font-style: italic;
+}
+
+.author-desc {
+    color: #000;
+}
+
+.post h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.post p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 18px;
+}
