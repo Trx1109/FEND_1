@@ -1,0 +1,144 @@
+@import "card.css";
+@import "text.css";
+@import "blog_post.css";
+@import "responsive.css";
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    row-gap: 24px;
+    grid-template-columns: auto auto;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    position: relative;
+}
+.blogBox-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.contentBox {
+    padding-left: 0 !important;
+}
+
+.nav {
+    padding: 0;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.one-row-grid {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.blog-post {
+    grid-area: main;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.header {
+    margin-top: 12px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.post-card-image {
+    width: 100%;
+    border: 1px solid salmon;
+    border-radius: 6px;
+    object-fit: cover;
+    aspect-ratio: 6/2;
+}
+.footer {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: rgba(100, 100, 100, 0.1);
+    display: flex;
+    margin-top: auto;
+    flex-direction: column;
+    row-gap: 8px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+}
+
+.nav {
+    padding: 0;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.nav-title {
+    display: block;
+    margin: 10px;
+    border: 1px solid #4793af;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+
+.blog-post {
+    grid-area: main;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.sidebar {
+    grid-area: sd;
+    background-color: #fff;
+    border: 1px solid #4793af;
+    text-align: left;
+    line-height: 1.5em;
+    justify-self: center;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+
+.social-menu {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+.social-menu li {
+    font-size: 22px;
+    list-style: none;
+}
+
